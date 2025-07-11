@@ -6,7 +6,7 @@ export type VerifiedUser = {
 };
 
 export enum UserRole {
-  ADMIN = "admin",
-  USER = "user",
-  MODERATOR = "moderator",
+  ADMIN = 'admin',
+  USER = 'user',
+  MODERATOR = 'moderator',
 }

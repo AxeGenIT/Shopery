@@ -17,7 +17,7 @@
     "server:lint": "cd server && npm run lint",
     "server:lint:fix": "cd server && npm run lint:fix",
     "server:format": "cd server && npm run format",
-    "build:all": "npm run client:build && npm run server:build",
+    "build:all": "node init && npm run client:build && npm run server:build",
     "lint:all": "npm run client:lint && npm run server:lint",
     "lint:fix:all": "npm run server:lint:fix",
     "format:all": "npm run server:format",
